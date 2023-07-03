@@ -1,0 +1,16 @@
+.Button {
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+    background-color: gray;
+    color: #222;
+}
+
+.Button--hover:hover {
+    background-color: pink;
+    color: black;
+}
